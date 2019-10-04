@@ -3,18 +3,20 @@
   "author": "Matheus Victor <hffmatheus@gmail.com> @matheushf",
   "version": "1.1.0",
   "scripts": {
-    "build-bundle": "vue-cli-service build --target lib --name vue-percent src/index.js",
-    "docs:build": "vue build ./src/docs/docs.vue --config ./src/docs/build.config.js --dist ./docs/ --prod",
-    "docs:serve": "open http://localhost:5000/docs/ && serve ./",
-    "compile": "npm run build -- --disable-compress"
+    "build-bundle": "vue-cli-service build --target lib --name vue-percent src/index.js"
   },
   "main": "dist/vue-percent.umd.js",
   "browser": {
-    "./sfc": "src/vue-percent.vue"
+    "./sfc": "src/component.vue"
   },
   "files": [
     "dist/*",
     "src/*"
+  ],
+  "browserslist": [
+    "last 2 versions",
+    "> 0.2%",
+    "not dead"
   ],
   "dependencies": {
     "v-money": "^0.8.1"
