@@ -2,6 +2,6 @@
 /config/
 /dist/
 /*.js
-/tests/unit/coverage/
 vue.config.js
+/tests/unit/coverage/
 /public
