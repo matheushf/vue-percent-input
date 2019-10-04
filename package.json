@@ -1,7 +1,7 @@
 {
   "name": "vue-percent-input",
   "author": "Matheus Victor <hffmatheus@gmail.com> @matheushf",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "scripts": {
     "build-bundle": "vue-cli-service build --target lib --name vue-percent src/index.js",
     "docs:build": "vue build ./src/docs/docs.vue --config ./src/docs/build.config.js --dist ./docs/ --prod",
