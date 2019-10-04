@@ -1,0 +1,41 @@
+{
+  "name": "vue-percent-input",
+  "author": "Matheus Victor <hffmatheus@gmail.com> @matheushf",
+  "version": "1.1.3",
+  "scripts": {
+    "build-bundle": "vue-cli-service build --target lib --name vue-percent src/index.js"
+  },
+  "main": "dist/vue-percent.umd.min.js",
+  "browser": {
+    "./sfc": "src/component.vue"
+  },
+  "files": [
+    "dist/*",
+    "src/*"
+  ],
+  "browserslist": [
+    "last 2 versions",
+    "> 0.2%",
+    "not dead"
+  ],
+  "dependencies": {
+    "v-money": "^0.8.1"
+  },
+  "devDependencies": {
+    "rollup": "^1.17.0",
+    "rollup-plugin-buble": "^0.19.8",
+    "rollup-plugin-commonjs": "^10.0.1",
+    "rollup-plugin-vue": "^5.0.1",
+    "vue": "^2.6.10",
+    "vue-template-compiler": "^2.6.10",
+    "@vue/cli-plugin-babel": "^3.10.0",
+    "@vue/cli-plugin-eslint": "^3.10.0",
+    "@vue/cli-service": "^3.10.0",
+    "@vue/eslint-config-airbnb": "^4.0.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0"
+  }
+}
