@@ -1,14 +1,11 @@
-import VuePercent from './component.vue';
-
-const { VERSION } = proccess.env;
+import PercentInput from './component.vue';
 
 export {
-  VuePercent,
-  VERSION,
+  PercentInput,
 };
 
 function install(Vue) {
-  Vue.component('vue-percent', VuePercent);
+  Vue.component('percent-input', PercentInput);
 }
 
 export default install;

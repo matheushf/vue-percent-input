@@ -38,5 +38,6 @@ module.exports = {
     'vue/require-default-prop': 'off',
     'arrow-body-style': 'off',
     'implicit-arrow-linebreak': 'off',
+    'no-use-before-define': 'off',
   },
 };

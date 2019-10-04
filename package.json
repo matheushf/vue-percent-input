@@ -1,20 +1,21 @@
 {
   "name": "vue-percent-input",
   "author": "Matheus Victor <hffmatheus@gmail.com> @matheushf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
-    "dev": "vue build ./src/docs/docs.vue --config ./src/docs/build.config.js --host 0.0.0.0",
     "build-bundle": "vue-cli-service build --target lib --name vue-percent src/index.js",
     "docs:build": "vue build ./src/docs/docs.vue --config ./src/docs/build.config.js --dist ./docs/ --prod",
     "docs:serve": "open http://localhost:5000/docs/ && serve ./",
     "compile": "npm run build -- --disable-compress"
   },
-  "main": "dist/vue-percent.umd.min.js",
-  "module": "dist/vue-percent.esm.js",
-  "unpkg": "dist/vue-percent.common.min.js",
+  "main": "dist/vue-percent.umd.js",
   "browser": {
     "./sfc": "src/vue-percent.vue"
   },
+  "files": [
+    "dist/*",
+    "src/*"
+  ],
   "dependencies": {
     "v-money": "^0.8.1"
   },
